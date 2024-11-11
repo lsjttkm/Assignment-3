@@ -20,6 +20,14 @@ Install Packages:
 pip install -r requirements.txt
 ```
 
+Obtain API Key from AlphaVantage (https://www.alphavantage.co/support/#api-key):
+
+Create a ".env" file & add contents like the following (with your own AlphaVantage API Key)
+
+```sh
+ALPHAVANTAGE_API_KEY="..."
+```
+
 
 
 
@@ -34,6 +42,8 @@ python app/example.py
 Run the unemployment report:
 
 ```sh
-ALPHAVANTAGE_API_KEY="..." python app/unemployment_report.py
-#ZA7MCBB2Y439DIXR
+#ALPHAVANTAGE_API_KEY="..." python app/unemployment_report.py
+
+python app/unemployment_report.py
+
 ```
